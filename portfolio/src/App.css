@@ -6,3 +6,24 @@
 body{
   background-color:#333;
 }
+
+.toggle-nav:hover{
+  color:#fff;
+}
+text:hover{
+  border-bottom: 2px solid rgb(12, 52, 12);
+}
+.content{
+  margin-left: 300px;
+}
+.intro{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.intro .contents{
+  padding:20px;
+  
+}
+.image{
+}
