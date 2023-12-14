@@ -14,16 +14,18 @@ text:hover{
   border-bottom: 2px solid rgb(12, 52, 12);
 }
 .content{
-  margin-left: 300px;
+  margin-left: 400px;
 }
-.intro{
+.container{
   display:flex;
   justify-content: space-around;
   align-items: center;
 }
-.intro .contents{
+.contents{
   padding:20px;
-  
+
 }
-.image{
+.about{
+  padding-left:20px;
+
 }
