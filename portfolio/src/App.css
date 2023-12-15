@@ -11,7 +11,7 @@ body{
   color:#fff;
 }
 text:hover{
-  border-bottom: 2px solid rgb(12, 52, 12);
+  border-bottom: 2px solid rgb(25,135,84);
 }
 .content{
   margin-left: 200px;
@@ -26,18 +26,49 @@ text:hover{
   padding:20px;
 
 }
+.image>img{
+  border-radius:50%;
+  border-bottom:0.7px solid rgb(25,135,84);
+  /* border-top: none;
+  border-top-right-radius: none;
+  border-top-left-radius: none; */
+}
+
+
 .about{
   padding-left:20px;
 
 }
+
 Button{
   float:right;
   margin-right:50px;
-  border:none;
+  border:1px solid rgb(25,135,84);
   /* width:200px; */
 }
 .text{
   padding-top:100px;
   width:600px;
+
+}
+.skills{
+  margin-top: 150px;
+  color:#fff;
+}
+.skills .icons{
+  width:200px;
+  height:70px;
+  background-color:rgb(25,135,84);
+  border:none;
+  border-radius:10px;
+  
+}
+.skills .icons p{
+  padding:30px;
+  margin-top:20px;
+}
+.skills .icon{
+  color:orangered;
+  font-size:25px;
 
 }
