@@ -14,7 +14,8 @@ text:hover{
   border-bottom: 2px solid rgb(12, 52, 12);
 }
 .content{
-  margin-left: 400px;
+  margin-left: 200px;
+  text-transform:uppercase;
 }
 .container{
   display:flex;

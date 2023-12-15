@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import image from '../Assets/pc-removebg-preview.png'
 import {init} from 'ityped'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+// import Row from 'react-bootstrap/Row'
+// import Col from 'react-bootstrap/Col'
 
 const Home = () => {
     const element = useRef()
