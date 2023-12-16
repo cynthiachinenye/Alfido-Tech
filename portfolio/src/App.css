@@ -58,17 +58,45 @@ Button{
 .skills .icons{
   width:200px;
   height:70px;
-  background-color:rgb(25,135,84);
+  background-color:black;
   border:none;
   border-radius:10px;
+  color:rgb(25,135,84);
+  font-size:20px;
   
 }
 .skills .icons p{
   padding:30px;
   margin-top:20px;
+  text-align:right;
+
 }
+
 .skills .icon{
   color:orangered;
-  font-size:25px;
+  font-size:35px;
+  text-align:left;
+  
+
+}
+.skills span .icon2{
+  color:blue;
+  font-size:35px;
+  
+  
+
+}
+.skills span .icon3{
+  color:red;
+  font-size:35px;
+  text-align:center;
+  
+
+}
+.skills .icon4{
+  color:rgb(70, 62, 215);
+  font-size:35px;
+  text-align:center;
+  
 
 }

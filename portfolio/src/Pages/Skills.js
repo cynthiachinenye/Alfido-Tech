@@ -16,51 +16,54 @@ const Skills = () => {
     <Row>
     <Col sm>
     <div className='icons'>
-      <p><FaHtml5 className='icon'/> Html</p>
+      <p><span><FaHtml5 className='icon'/></span> Html</p>
     </div>
     
     </Col>
     <Col sm>
     <div className='icons'>
-      <p><FaCss3 className='icon1'/> Css</p>
+      <p><span><FaCss3 className='icon1'/></span> Css</p>
     </div>
     
     </Col>
     <Col sm>
     <div className='icons'>
-      <p><FaGitAlt className='icon2'/> Git</p>
-    </div>
-    
-    </Col>
-    
-    <Col sm>
-    <div className='icons'>
-      <p><IoLogoJavascript className='icon'/> JavaScript</p>
+      <p><span><FaGitAlt className='icon2'/></span> Git</p>
     </div>
     
     </Col>
     
     <Col sm>
     <div className='icons'>
-      <p><FaSass className='icon3'/> Sass</p>
+      <p><span><IoLogoJavascript className='icon'/> </span>JavaScript</p>
     </div>
     
     </Col>
     
     <Col sm>
     <div className='icons'>
-      <p><FaBootstrap className='icon2'/> Bootstrap</p>
+      <p><span><FaSass className='icon3'/></span> Sass</p>
+    </div>
+    
+    </Col>
+    
+    <Col sm>
+    <div className='icons'>
+      <p><span><FaBootstrap className='icon2'/></span> Bootstrap</p>
     </div>
     
     </Col>
     <Col sm>
     <div className='icons'>
-      <p><FaReact  className='icon4'/> React</p>
+      <p><span><FaReact  className='icon4'/></span> React</p>
     </div>
     
     </Col>
     
     
+    
+    </Row>
+    <Row>
     
     </Row>
     </Container>
