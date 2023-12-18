@@ -94,18 +94,21 @@ Button{
 .skills .icon3{
   color:red;
   font-size:35px;
-  text-align:center;
-  
-  
+  text-align:center; 
 
 }
 .skills .icon4{
   color:rgb(70, 62, 215);
   font-size:35px;
   text-align:center;
-  
-
 }
 .progress{
   width:300px;
+}
+
+.us{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  color:#fff;
 }
