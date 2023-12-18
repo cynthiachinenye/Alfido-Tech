@@ -3,12 +3,16 @@ import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import { FaGitAlt, FaHtml5, FaCss3, FaSass, FaBootstrap, FaReact } from "react-icons/fa6";
+import { FaGitAlt, FaHtml5, FaCss3, FaSass, FaBootstrap, FaReact,  FaFigma } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
 
 
 const Skills = () => {
-  const now = 60;
+  const now = 90;
+  const css = 85;
+  const js = 65;
+  const gx = 15;
+  const html = 50;
 
 
   return (
@@ -21,64 +25,80 @@ const Skills = () => {
           <Col sm>
             <div className='d-flex  align-items-center m-3'>
               <div className='icons'>
-                <p><span><FaHtml5 className='icon' /></span> Html</p>
+              <FaHtml5 className='icon' />
+                <p> Html</p>
 
               </div>
-              <ProgressBar now={now} label={`${now}%`} className='progress ms-2' />
+              <ProgressBar now={now} label={`${now}%`} className='progress ms-2 ' variant="success" />
             </div>
 
           </Col>
           <Col sm >
             <div className='d-flex align-items-center m-3'>
               <div className='icons'>
-
-                <p><span><FaCss3 className='icon1' /></span> Css</p>
+              <FaCss3 className='icon1' />
+                <p> Css</p>
               </div>
-              <ProgressBar now={now} label={`${now}%`} className='progress ms-2' />
+              <ProgressBar now={css} label={`${css}%`} className='progress ms-2 '   variant="success"/>
             </div>
           </Col>
 
           <Col sm>
             <div className='d-flex  align-items-center m-3'>
               <div className='icons'>
-                <p><span><FaGitAlt className='icon2' /></span> Git</p>
+              <FaGitAlt className='icon2 ' />
+                <p> Git</p>
               </div>
-              <ProgressBar now={now} label={`${now}%`} className='progress ms-2' />
+              <ProgressBar now={gx} label={`${gx}%`} className='progress ms-2'  variant="warning"/>
             </div>
           </Col>
 
           <Col sm>
             <div className='d-flex align-items-center m-3'>
               <div className='icons'>
-                <p><span><IoLogoJavascript className='icon' /> </span>JavaScript</p>
+              <IoLogoJavascript className='icon' /> 
+                <p>JavaScript</p>
               </div>
-              <ProgressBar now={now} label={`${now}%`} className='progress ms-2' />
+              <ProgressBar now={js} label={`${js}%`} className='progress ms-2'  variant="danger"/>
             </div>
           </Col>
 
           <Col sm>
             <div className='d-flex  align-items-center m-3'>
               <div className='icons'>
-                <p><span><FaSass className='icon3' /></span> Sass</p>
+              <FaSass className='icon3' />
+                <p> Sass</p>
               </div>
-              <ProgressBar now={now} label={`${now}%`} className='progress ms-2' />
+              <ProgressBar now={html} label={`${html}%`} className='progress ms-2' variant="info" />
             </div>
           </Col>
 
           <Col sm>
             <div className='d-flex  align-items-center m-3'>
               <div className='icons'>
-                <p><span><FaBootstrap className='icon2' /></span> Bootstrap</p>
+              <FaBootstrap className='icon2' />
+                <p> Bootstrap</p>
               </div>
-              <ProgressBar now={now} label={`${now}%`} className='progress ms-2' />
+              <ProgressBar now={html} label={`${html}%`} className='progress ms-2'  variant="info"/>
             </div>
           </Col>
           <Col sm>
             <div className='d-flex  align-items-center m-3'>
               <div className='icons'>
-                <p><span><FaReact className='icon4' /></span> React</p>
+            <FaReact className='icon4' />
+                <p> React</p>
               </div>
-              <ProgressBar now={now} label={`${now}%`} className='progress ms-2' />
+              <ProgressBar now={js} label={`${js}%`} className='progress ms-2'  variant="danger" />
+            </div>
+          </Col>
+
+          <Col sm>
+            <div className='d-flex  align-items-center m-3'>
+              <div className='icons'>
+              <FaFigma className='icon4' />
+                <p> Figma</p>
+              </div>
+              <ProgressBar now={gx} label={`${gx}%`} className='progress ms-2'  variant="warning"/>
             </div>
           </Col>
 

@@ -71,6 +71,11 @@ Button{
   text-align:right;
 
 }
+.skills .icons{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
 
 .skills .icon{
   color:orangered;
@@ -79,17 +84,18 @@ Button{
   
 
 }
-.skills span .icon2{
+.skills  .icon2{
   color:blue;
   font-size:35px;
   
   
 
 }
-.skills span .icon3{
+.skills .icon3{
   color:red;
   font-size:35px;
   text-align:center;
+  
   
 
 }
