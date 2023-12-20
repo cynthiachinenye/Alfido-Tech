@@ -5,6 +5,15 @@ import Collapse from 'react-bootstrap/Collapse';
 
 const About = () => {
     const [open, setOpen] = useState(false);
+    
+    const eventHandler = (e) =>{
+      e.preventDefault();
+      setTimeout(() =>{
+        setOpen(true)
+      }, 3000)
+
+    }
+
 
   return (
     <div className='about text-white pt-5'>
@@ -13,11 +22,7 @@ const About = () => {
     <hr style={{width:'80px', border:'1px solid #fff',marginLeft:'10px'}}/>
    
     </div>
-    <Button className='bg-success fs-3 border-none ' size='lg'
-    onClick={() => setOpen(!open)}
-    aria-controls="example-collapse-text"
-    aria-expanded={open}
-  >
+    <Button className='bg-success fs-3 border-none ' size='lg' onClick={eventHandler}>
     click Me
   </Button>
   <Collapse in={open} className='text px-5'>
