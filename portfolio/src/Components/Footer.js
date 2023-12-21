@@ -9,10 +9,10 @@ const Footer = () => {
     <div className='division'>
     <p>&copy; copyright with cyndyDev</p>
     <div className='socials'>
-       <Link to={'https://web.facebook.com/profile.php?id=100008745705403'}><FaFacebook/></Link>
-       <Link to={'https://www.linkedin.com/in/cynthia-agu-6aa13a172/'}><FaLinkedin/></Link>
-       <Link to={'https://twitter.com/cyndyblesstech'}><FaXTwitter/></Link>
-       <Link to={'https://www.tiktok.com/@cyndi_bless?lang=en'}><FaTiktok/></Link>
+       <a href='https://web.facebook.com/profile.php?id=100008745705403'><FaFacebook/></a>
+       <a href='https://www.linkedin.com/in/cynthia-agu-6aa13a172/'><FaLinkedin/></a>
+       <a href='https://twitter.com/cyndyblesstech'><FaXTwitter/></a>
+       <a href='https://www.tiktok.com/@cyndi_bless?lang=en'><FaTiktok/></a>
     </div>
     </div>
       
