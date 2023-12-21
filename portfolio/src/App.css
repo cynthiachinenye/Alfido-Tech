@@ -26,6 +26,10 @@ text:hover{
   padding:20px;
 
 }
+.contents h1{
+  font-size:100px;
+}
+
 .image>img{
   border-radius:50%;
   border-bottom:0.7px solid rgb(25,135,84);
@@ -156,7 +160,7 @@ margin-top:10px;
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding: 80px 50px;
+  padding: 20px 50px;
 }
 .division p{
   font-size:15px;
@@ -164,7 +168,7 @@ margin-top:10px;
 .socials a{
   color:#fff;
   padding:0px 10px;
-  font-size:20px;
+  font-size:25px;
 }
 .socials a:hover{
   color:rgb(25,135,84);

@@ -18,7 +18,7 @@ const Home = () => {
     
    
     <div className='contents text-white '>
-    <h1>hello 🤍, I am Cyndi </h1>
+    <h1>hello 🤍, I am Cynthia Agu </h1>
     <h3> A Freelance <span ref={element}></span></h3>
     </div>
       <div className='image'>
