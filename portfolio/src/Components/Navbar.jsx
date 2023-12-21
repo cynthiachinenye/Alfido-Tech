@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import {Link} from 'react-router-dom'
 
 
 const Hero = () => {
@@ -13,11 +14,11 @@ const Hero = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-success toggle-nav '/>
       <Navbar.Collapse id="basic-navbar-nav bg-light" className='text-left py-5'>
         <Nav className="me-auto content fs-5 ps-5">
-          <Nav.Link href="#home" className='text-light ps-5'>Intro</Nav.Link>
-          <Nav.Link href="#about" className='text-light ps-3'>About Me</Nav.Link>
-          <Nav.Link href="#about" className='text-light ps-3'>skills/tools</Nav.Link>
-          <Nav.Link href="#projects" className='text-light ps-3'>Projects</Nav.Link>
-          <Nav.Link href="#contact" className='text-light ps-3'>Contact Me</Nav.Link>
+          <Link to="#home" className='text-light ps-5'>Intro</Link>
+          <Link to="#about" className='text-light ps-3'>About Me</Link>
+          <Link to="#skill" className='text-light ps-3'>skills/tools</Link>
+          <Link to="#projects" className='text-light ps-3'>Projects</Link>
+          <Link to="#contact" className='text-light ps-3'>Contact Me</Link>
           
         </Nav>
       </Navbar.Collapse>
