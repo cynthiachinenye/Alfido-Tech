@@ -17,7 +17,6 @@ const Hero = () => {
           <NavLink to="home" className='text-light ps-5'>Intro</NavLink>
           <NavLink to="about" className='text-light ps-3'>About Me</NavLink>
           <NavLink to="skill" className='text-light ps-3'>skills/tools</NavLink>
-          <NavLink to="projects" className='text-light ps-3'>Projects</NavLink>
           <NavLink to="contact" className='text-light ps-3'>Contact Me</NavLink>
           
         </Nav>
