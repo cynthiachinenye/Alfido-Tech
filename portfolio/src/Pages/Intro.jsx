@@ -11,7 +11,7 @@ const Home = () => {
             showCursor:true,
             backDelay:2000,
             backSpeed: 1000,
-            strings:['Frontend Designer', 'UI/UX Designer', 'Wordpress Designer'],})
+            strings:['Frontend Designer'],})
     },[])
   return (
     <div className='container ' >
@@ -19,7 +19,7 @@ const Home = () => {
    
     <div className='contents text-white '>
     <h1>hello 🤍, I am Cynthia Agu </h1>
-    <h3> A Freelance <span ref={element}></span></h3>
+    <h3> A Junior <span ref={element}></span></h3>
     </div>
       <div className='image'>
       <img src={image}alt='images'/>
