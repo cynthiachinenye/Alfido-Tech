@@ -22,6 +22,9 @@ text:hover{
   justify-content: space-around;
   align-items: center;
 }
+.text-light{
+  text-decoration: none;
+}
 .contents{
   padding:20px;
 
