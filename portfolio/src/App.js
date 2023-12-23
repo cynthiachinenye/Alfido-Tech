@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Hero from './Components/Navbar';
 import Home from './Pages/Intro';
 import About from './Pages/about'
@@ -11,21 +11,21 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Hero />
-        <Home />
+
         <Routes>
-      
-         <Route path='home' element={ <Home />}/>
-         <Route path='about' element={ <About />}/>
-         <Route path='skill' element={ <Skills />}/>
-         <Route path='contact' element={ <Contact />}/>
+
+          <Route path='/' exact Component={Home} />
+          <Route path='about' exact Component={About} />
+          <Route path='skill' element={<Skills />} />
+          <Route path='contact' element={<Contact />} />
 
 
-        
+
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

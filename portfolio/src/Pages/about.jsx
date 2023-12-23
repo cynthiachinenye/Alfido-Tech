@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
+
 const About = () => {
     const [open, setOpen] = useState(false);
     
@@ -22,8 +23,8 @@ const About = () => {
     <hr style={{width:'80px', border:'1px solid #fff',marginLeft:'10px'}}/>
    
     </div>
-    <Button className='bg-success fs-3 border-none ' size='lg' onClick={eventHandler}>
-    click Me
+    <Button className='bg-success fs-3  btn btn-border-none' size='lg' onClick={eventHandler}>
+    click to Know about Me
   </Button>
   <Collapse in={open} className='text px-5'>
     <div id="example-collapse-text  ">

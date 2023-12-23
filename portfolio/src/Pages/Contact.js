@@ -1,37 +1,27 @@
 import React from 'react'
 import Image from '../Assets/pc-removebg-preview.png'
+import {Element} from 'react-scrolll'
 
 const Contact = () => {
   return (
-    <div className='contact'>
-    <div className='us'>
-    <img src={Image} alt='images'/>
-    <div>
-    <h1>Contact us</h1>
-    <form action='method' className='form'>
-    <div> 
-    <label>Name:</label>
-    <input type='text' placeholder="enter your fullname"/>
+    <Element className="contact" name="contact">
+    <div style={{backgroundImage: `url(${Image})`}}></div>
+     <div className='contact-content'>
+     <h1> Contact Us</h1>
+     <form id='name' method='POST'>
+      <label>Full Name</label>
+      <input type='text' placeholder='Enter Full Name'/>
+      <label>Email</label>
+      <input type='email' placeholder='Enter Email' name='email'/>
+      <label>Message</label>
+      <textarea placeholder='Enter Your Message' type='text'></textarea>
+       
+      <button type='submit'>Send Message</button>
 
-    </div>
-    
-    <div>
-    <label>E-mail</label>
-    <input type="email" placeholder='enter your mail'/>
-
-    </div>
-   
-    <textarea placeholder='Message' id="text"></textarea>
-
-    <button type='submit'>Submit</button>
-    </form>
-
-    </div>
-
-    </div>
-    
-      
-    </div>
+     </form>
+           
+     </div>
+    </Element>
   )
 }
 

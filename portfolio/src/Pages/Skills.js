@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import { FaGitAlt, FaHtml5, FaCss3, FaSass, FaBootstrap, FaReact,  FaFigma } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
+import {Element} from 'react-scroll'
 
 
 const Skills = () => {
@@ -16,7 +17,7 @@ const Skills = () => {
 
 
   return (
-    <div className='skills '>
+    <Element className='skills ' name="skills">
       <Container fluid>
         <h2>My Skills</h2>
         <hr style={{ width: '80px', border: '1px solid #fff', marginLeft: '10px' }} />
@@ -112,7 +113,7 @@ const Skills = () => {
 
       </Container>
 
-    </div>
+    </Element>
   )
 }
 

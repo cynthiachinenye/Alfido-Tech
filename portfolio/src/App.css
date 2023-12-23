@@ -114,49 +114,69 @@ Button{
   width:300px;
 }
 
-.us{
+.contact{
+  width:100%;
+  height:auto;
   display:flex;
+  flex-direction:row;
+  justify-content: center;
   align-items:center;
-  justify-content:space-around;
   color:#fff;
-}
-.us h1{
-  text-align:center;
-  font-size:55px;
-}
- .us .form{
-display:flex;
-flex-direction:column;
-justify-content: space-around;
-margin-top:10px;
 
 }
-.us input{
-  width:350px;
-  height:50px;
-  margin-top:15px;
-  background: transparent;
+
+.contact div{
+  width:80%;
+  height:800px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.contact .contact-content{
+  padding-top:100px;
+  padding-left:25px;
+  text-align:left;
+}
+
+.contact-content form {
+  display:flex;
+  flex-direction:column;
+  padding-top:20px;
+  font-size:20px;
+  line-height:40px;
+  width:80%;
+  color:#fff;
+}
+.contact-content form input{
+  border:none;
+  border-bottom:1px solid #fff;
+  padding-top:18px;
+  
   
 }
-.us #text{
-  margin-top:15px;
-  margin-left:45px;
-  background: transparent;
+.contact-content  ::placeholder{
+  font-weight:bold;
+  
 }
-
-
-.us button{
-  margin-top:15px;
-  margin-left:55px;
-  width:200px;
-  height:50px;
-  font-size:20px;
-  background-color:rgb(25,135,84);
+.contact-content textarea{
   border:none;
-  border-radius:10px;
-  color:#fff;
-
+  border-bottom:1px solid #121612;
+  padding-top:30px;
+  
 }
+
+.contact-content button{
+  margin-top:25px;
+  height:40px;
+  width:150px;
+  background-color:rgb(25,135,84);
+  color:#fff;
+  border: none;
+  border-radius:5px;
+  font-size:18px;
+}
+
 .projects{
   color:#fff;
 }
