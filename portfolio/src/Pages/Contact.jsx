@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from '../Assets/pc-removebg-preview.png'
-import {Element} from 'react-scrolll'
+
 
 const Contact = () => {
   return (
-    <Element className="contact" name="contact">
+    <div className="contact" name="contact">
     <div style={{backgroundImage: `url(${Image})`}}></div>
      <div className='contact-content'>
      <h1> Contact Us</h1>
@@ -21,7 +21,7 @@ const Contact = () => {
      </form>
            
      </div>
-    </Element>
+    </div>
   )
 }
 

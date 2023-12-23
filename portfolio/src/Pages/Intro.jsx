@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import image from '../Assets/pc-removebg-preview.png'
 import {init} from 'ityped'
-import {Element} from "react-scroll"
+
 
 const Home = () => {
     const element = useRef()
@@ -13,7 +13,7 @@ const Home = () => {
             strings:['Frontend Designer'],})
     },[])
   return (
-    <Element className='container' name="home" >
+    <div className='container' name="home" >
     
    
     <div className='contents text-white '>
@@ -25,7 +25,7 @@ const Home = () => {
       </div>
      
      
-    </Element>
+    </div>
   )
 }
 
