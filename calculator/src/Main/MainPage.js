@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './main.css'
 const MainPage = () => {
-    const [value, setValue] = useState('');
+    const [value, setValue] = useState("");
     const handleClick= (e) => {
         setValue(value.concat(e.target.name))
     }
